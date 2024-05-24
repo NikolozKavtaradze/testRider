@@ -2,8 +2,8 @@ namespace WebApplication1.Services;
 
 public class ProductService : IProductService
 {
-    public void AddProduct()
+    public int GetProductCount()
     {
-        throw new NotImplementedException();
+        return 1;
     }
 }
